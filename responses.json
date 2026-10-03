@@ -1,0 +1,138 @@
+{
+    "identity": {
+        "name": "AURA",
+        "creator": "Mohammed Hamza",
+        "description": "A local AI agent created and programmed by Mohammed Hamza."
+    },
+    "conversation": {
+        "greetings": {
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hello aura",
+                "hi aura",
+                "hey aura",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "response": "Hello! How can I help you?"
+        },
+        "arabic_greetings": {
+            "patterns": [
+                "سلام",
+                "هلا",
+                "هلو",
+                "اهلا",
+                "أهلا"
+            ],
+            "response": "هلا بيك! شلون أگدر أساعدك؟"
+        },
+        "how_are_you": {
+            "patterns": [
+                "how are you",
+                "how are you aura",
+                "how are you doing",
+                "are you okay",
+                "are you good",
+                "you good"
+            ],
+            "response": "I'm doing great! How can I help you?"
+        },
+        "identity": {
+            "patterns": [
+                "who are you",
+                "what is your name",
+                "your name",
+                "what are you",
+                "what is aura",
+                "who is aura"
+            ],
+            "response": "I'm AURA, a local AI agent created by Mohammed Hamza."
+        },
+        "programmer": {
+            "patterns": [
+                "who is your programmer",
+                "who programmed you",
+                "who created you",
+                "who made you",
+                "who built you",
+                "who developed you",
+                "who is your developer",
+                "who is your creator",
+                "tell me about your programmer",
+                "tell me about your creator",
+                "how is your programmer",
+                "how is your creator",
+                "who programmed aura",
+                "who created aura",
+                "who made aura",
+                "who built aura"
+            ],
+            "response": "My programmer and creator is Mohammed Hamza."
+        },
+        "capabilities": {
+            "patterns": [
+                "what can you do",
+                "what do you do",
+                "what are your capabilities",
+                "what are your tools",
+                "show your tools",
+                "what tools do you have"
+            ],
+            "response": "I can manage files using read, write, list, and delete operations."
+        },
+        "thanks": {
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks aura",
+                "thank you aura",
+                "thx",
+                "thanks for your help"
+            ],
+            "response": "You're welcome!"
+        },
+        "goodbye": {
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later"
+            ],
+            "response": "Goodbye!"
+        }
+    },
+    "commands": {
+        "list_files": {
+            "patterns": [
+                "list files",
+                "show files",
+                "show all files",
+                "list all files",
+                "list directory",
+                "show directory",
+                "what files are here",
+                "what files do i have",
+                "show me the files",
+                "list my files"
+            ],
+            "tool": "list_files"
+        }
+    },
+    "learned_responses": {
+        "greeting": {
+            "patterns": [
+                "good"
+            ],
+            "response": "Great to hear! How can I assist you today?"
+        },
+        "positive": {
+            "patterns": [
+                "hello aura how are you"
+            ],
+            "response": "Hello! How can I help you today?"
+        }
+    }
+}

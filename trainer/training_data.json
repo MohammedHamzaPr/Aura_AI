@@ -1,0 +1,28 @@
+{
+  "categories": {
+    "greeting": {
+      "description": "Greetings and ways to start a conversation"
+    },
+    "identity": {
+      "description": "Questions about AURA's identity"
+    },
+    "creator": {
+      "description": "Questions about AURA's creator and programmer"
+    },
+    "casual_conversation": {
+      "description": "Simple everyday conversation"
+    },
+    "thanks": {
+      "description": "Thanking AURA"
+    },
+    "goodbye": {
+      "description": "Ending a conversation"
+    },
+    "small_talk": {
+      "description": "Simple friendly small talk"
+    },
+    "simple_questions": {
+      "description": "Very simple non-technical questions"
+    }
+  }
+}
