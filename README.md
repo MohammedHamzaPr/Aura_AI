@@ -1,17 +1,18 @@
-AURA
-Local AI Agent
+# AURA
 
-Written by: Mohammed Hamza
+### Local AI Agent
 
-A lightweight local AI assistant and agent
-built with Python and Ollama.
+**Written by: Mohammed Hamza**
 
-Features:
-• Local LLM
-• Fast intent routing
-• JSON response database
-• File system tools
-• Agent loop
-• Training system
-• Conversation history
-• No cloud API required
+A lightweight local AI assistant and agent built with **Python** and **Ollama**.
+
+## Features
+
+* Local LLM
+* Fast intent routing
+* JSON response database
+* File system tools
+* Agent loop
+* Training system
+* Conversation history
+* No cloud API required
